@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+        h6{
+            font-size: 32px;
+        }
+    </style>
+  </head>
+  <body>
+    <!-- Temel Etiketler -->
+    <!-- Heading -->
+    <!-- Anlamsal Önem. Büyüklük değil. -->
+    <h1>Lorem.</h1>
+    <h2>Lorem, ipsum.</h1>
+    <h3>Lorem ipsum dolor.</h1>
+    <h4>Lorem ipsum dolor sit.</h1>
+    <h5>Lorem ipsum dolor sit amet.</h1>
+    <h6>Lorem ipsum dolor sit amet consectetur.</h1>
+        
+    <!-- İç içe element kullanımı -->
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, maxime? Atque vel sit ad delectus mollitia molestias assumenda <strong>asperiores</strong>  nemo aperiam dicta, culpa vitae magni consequatur <em>iusto!</em> Ducimus, quis aliquam!
+    </p>
+    <br>
+    <hr>
+    <p>Lorem ipsum dolor sit amet.</p>
+    <ol>
+        <li>Tunahan</li>
+        <li>Oğuzhan</li>
+        <li>Beste</li>
+        <li>Doğukan</li>
+        <li>Burak</li>
+    </ol>
+    <ul>
+        <li>Tunahan</li>
+        <li>Oğuzhan</li>
+            <ol>
+                <li>Tunahan</li>
+                <li>Oğuzhan</li>
+                <li>Beste</li>
+                <li>Doğukan</li>
+            </ol>
+        <li>Doğukan</li>
+    </ul>
+
+    <!-- Tablo Kullanımı -->
+    <table>
+        <thead>
+            <tr>
+                <th>1.satır</th>
+                <th>2.satır</th>
+                <th>3.satır</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>veri1</td>
+                <td>veri2</td>
+                <td>veri3</td>
+            </tr>
+            <tr>
+                <td>Çağdaş</td>
+                <td>Yarıcı</td>
+                <td>19</td>
+            </tr>
+        </tbody>
+    </table>
+    <!-- Anchor -->
+    <a href="https://www.google.com" target="_blank">Google'a gider</a>
+    <hr>
+    <!-- Block Element vs Inline Element -->
+    <a href="https://www.google.com" target="_blank">Google'a gider</a>
+    <a href="https://www.google.com" target="_blank">Google'a gider</a>
+    <p>Lorem</p>
+    <p>Lorem</p>
+
+    <!-- Resim Ekleme -->
+    <img src="/Egitim-Icerigi/HTML/images/indir.jpg" alt="death-foto">
+    <hr>
+    <form action="">
+        <h2>Contact Me</h2>
+        <div>
+            <label for="">Name:</label>
+            <input type="text" placeholder="Adınızı Giriniz.." >
+        </div>
+        <div>
+            <label for="">Email:</label>
+            <input type="email" placeholder="Mailinizi Giriniz.." >
+        </div>
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+        <div>
+            <label for="">Cinsiyet:</label>
+            <select name="" id="">
+                <!-- Value veritabanında nasıl tutulmasını istediğin ile alakalı -->
+                <option value="Erkek">Male</option> 
+                <option value="">Female</option>
+                <option value="">Others</option>
+                <option value="">Attack Helicopter</option>
+            </select>
+        </div>
+        <div>
+            <label for="">BirthDate:</label>
+            <input type="date">
+        </div>
+        <div>
+            <label for="">Yaş:</label>
+            <input type="number" min="1" max="120" value="0" required>
+        </div>
+        <div>
+            <label for="">Nationality:</label>
+            <br>
+            <input type="radio" name="nation" checked>
+            <label for="">Turkish</label>
+            <input type="radio" name="nation">
+            <label for="">English</label>
+            <input type="radio" name="nation">
+            <label for="">German</label>
+            <input type="radio" name="nation">
+            <label for="">Non-EU</label>
+            <input type="radio" name="nation">
+            <label for="">No-Comment</label>
+        </div>
+        <br>
+        <div>
+            <label for="">Emin misiniz?</label>
+            <input type="checkbox">
+        </div>
+        <button type="submit">Yolla</button>
+        <input type="submit">
+        <p>
+            <!-- Html Entities -->
+            &#9733
+            &copy;
+        </p>
+    </form>
+  </body>
+</html>
