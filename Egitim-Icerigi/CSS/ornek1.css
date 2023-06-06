@@ -1,0 +1,25 @@
+main > h2 {
+  background-color: blueviolet;
+}
+main > ul {
+  background-color: aquamarine;
+}
+a {
+  background-color: black;
+  color: blue;
+}
+main > section > h2 {
+  color: cornflowerblue;
+}
+ol > li:nth-child(3n + 1) {
+  color: red;
+}
+ol > li:nth-child(2n - 1) {
+  background-color: deeppink;
+}
+ol > li:nth-child(2n + 2) {
+  background-color: gray;
+}
+.last {
+  color: red;
+}

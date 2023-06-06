@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Semantic Tags</title>
+  </head>
+  <body>
+    <!-- sayfanın üst kısmı -->
+    <header>
+      <h1>Semantic Tags EXAMPLE</h1>
+      <p>
+        Bu örnek Semantic etiketlerin önemini vurgulamak için
+        hazırlanmıştır.Yorum satırları ve fotoğraf , fikir oluşturmak ve/veya
+        ipucu vermek için koyulmuştur.
+      </p>
+      <br />
+    </header>
+    <!-- FIGURE -->
+    <figure>
+      <h2>Fotoda görünmeyen bir semantic etiket.Araştırmak Serbest</h2>
+      <img
+        src="https://miro.medium.com/max/1400/1*VU3WvCvNzu5KfLnrXi4BVA.jpeg"
+        alt="semantic-tags-photo"
+        width="700px"
+        height="700px"
+      />
+      <!-- figurecaption -->
+      <figcaption>Fig1. Semantic Etiketlerin Konumları hk.</figcaption>
+    </figure>
+    <br />
+    <!-- yönlendirme -->
+    <nav>
+      <a href="#">GOOGLE</a>
+      <a href="#">MDN</a>
+      <a href="#">W3SCHOOLS</a>
+      <a
+        href="https://medium.com/codex/what-is-semantic-markup-and-why-you-should-use-it-44777543c29c"
+        >MEDIUM</a
+      >
+    </nav>
+    <br />
+    <!-- ANA İÇERİK  -->
+    <main>
+      <!-- Bölüm -->
+      <section>
+        <h2>Semantic Tag Kullanımı Neden Önemlidir?</h2>
+        <p>
+          HTML5 semantik etiketleri ile bölüm içeriğinin ne olduğunu daha kolay
+          tanımlanabilecektir. Yani; HTML5 semantik etiketler sayesinde sayfanın
+          içerindeki veriler arama motorları, web örümcekleri ve web
+          geliştiriciler için daha okunaklı ve anlaşılır olacaktır.
+        </p>
+        <div>başka bir bilgi</div>
+      </section>
+      <!-- yan bilgi -->
+      <aside>
+        <p>
+          The <strong> aside</strong> HTML element represents a portion of a
+          document whose content is only indirectly related to the document's
+          main content. Asides are frequently presented as sidebars or call-out
+          boxes.
+        </p>
+      </aside>
+      <!--makale -->
+      <article>
+        <p>
+          The <strong>article</strong> HTML element represents a self-contained
+          composition in a document, page, application, or site, which is
+          intended to be independently distributable or reusable (e.g., in
+          syndication). Examples include: a forum post, a magazine or newspaper
+          article, or a blog entry, a product card, a user-submitted comment, an
+          interactive widget or gadget, or any other independent item of
+          content.
+        </p>
+        <p>
+          A given document can have multiple articles in it; for example, on a
+          blog that shows the text of each article one after another as the
+          reader scrolls, each post would be contained in an
+          <strong>Article</strong> element, possibly with one or more
+          <em>sections</em> within.
+        </p>
+        <ol>
+          <li>
+            Each <strong>article</strong> should be identified, typically by
+            including a heading (h1 - h6 element) as a child of the article
+            element.
+          </li>
+          <li>
+            When an article element is nested, the inner element represents an
+            article related to the outer element. For example, the comments of a
+            blog post can be article elements nested in the article representing
+            the blog post.
+          </li>
+          <li>
+            Author information of an article element can be provided through the
+            address element, but it doesn't apply to nested article elements.
+          </li>
+          <li>
+            The publication date and time of an article element can be described
+            using the datetime attribute of a time element.
+          </li>
+        </ol>
+      </div>
+      </article>
+
+    <!-- sayfanın alt kısmı -->
+    <footer>
+      <a href="#">GOOGLE</a>
+      <a href="#">MDN</a>
+      <a href="#">W3SCHOOLS</a>
+      <a
+        href="https://medium.com/codex/what-is-semantic-markup-and-why-you-should-use-it-44777543c29c"
+        >MEDIUM</a
+      >
+      <p>© 2023 BilgeAdam</p>
+      <br />
+      <img
+        src="https://miro.medium.com/max/1200/1*jfdwtvU6V6g99q3G7gq7dQ.png"
+        alt="medium-logo"
+        width="100px"
+        height="100px"
+      />
+    </footer>
+  </body>
+</html>

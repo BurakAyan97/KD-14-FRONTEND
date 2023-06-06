@@ -1,0 +1,48 @@
+/* selectors  bir html etiketine elementine seslenmek , ulaşmak yakalamak  */
+/* element selectors */
+h1,
+h2 {
+  /* coklu element secimi virgul ile  */
+  color: aqua;
+  background-color: chartreuse;
+}
+p {
+  color: yellow;
+}
+/* h2{
+background-color: chartreuse;
+} */
+/* class selector */
+.kd-boost {
+  background-color: darkgreen;
+}
+/* id selector */
+#ozel {
+  background-color: blue;
+}
+.font,
+.kd-boost {
+  font-size: 40px;
+  background-color: black;
+}
+/* direct child */
+div > p {
+  color: black;
+}
+/* nested selectors */
+section div section .spesifik {
+  background-color: blue;
+}
+a {
+  color: darkcyan;
+}
+/* psuedo-selectors */
+a:hover {
+  background-color: black;
+}
+a:visited {
+  background-color: brown;
+}
+a:active {
+  background-color: yellow;
+}
