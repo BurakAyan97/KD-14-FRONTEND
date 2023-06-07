@@ -1,0 +1,13 @@
+.box {
+  border: 2px black solid;
+  height: 70px;
+  width: 200px;
+}
+th {
+  background-color: blueviolet;
+}
+td {
+  background-color: yellow;
+  width: 75px;
+  margin: 5px;
+}
