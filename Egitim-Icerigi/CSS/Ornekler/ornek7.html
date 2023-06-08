@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    * {
+      font-weight: bolder;
+    }
+    #pink {
+      position: relative;
+      top: -260px;
+      left: 270px;
+      width: 75px;
+      height: 75px;
+      background-color: pink;
+      border: 2px solid grey;
+    }
+    #blue {
+      position: absolute;
+      width: 75px;
+      height: 75px;
+      background-color: cadetblue;
+      top: 75px;
+      left: 25px;
+      border: 2px solid grey;
+    }
+    #yellow {
+      position: absolute;
+      width: 75px;
+      height: 75px;
+      background-color: darkgoldenrod;
+      top: 50px;
+      left: 75px;
+      opacity: 0.9;
+      border: 2px solid grey;
+    }
+    #purple {
+      position: absolute;
+      top: 0;
+      width: 75px;
+      height: 75px;
+      background-color: blueviolet;
+      border: 2px solid grey;
+    }
+    #green {
+      width: 75px;
+      height: 75px;
+      background-color: greenyellow;
+      border: 2px solid grey;
+      left: 150px;
+      position: sticky;
+    }
+    #bigmom {
+      position: relative;
+      background-color: blanchedalmond;
+      width: 300px;
+      height: 300px;
+      top: 80px;
+      border: 3px solid brown;
+      z-index: 1;
+      opacity: 0.9;
+    }
+  </style>
+  <body>
+    <div id="bigmom">
+      <div id="blue">2 Absolute</div>
+      <div id="yellow">3 Absolute</div>
+    </div>
+    <div id="pink">1 Relative</div>
+    <div id="purple">4 Fixed</div>
+    <div id="green">5 Sticky</div>
+  </body>
+</html>
