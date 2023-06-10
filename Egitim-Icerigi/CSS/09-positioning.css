@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+p {
+  /* position: static; */
+  /* position: relative; */
+  /* position: absolute; */
+  /* position: fixed; */
+  /* position: sticky; */
+}
+/* .relative{
+    position: relative;
+    background-color: aqua;
+    top: 20px;
+    left: 20px;
+
+}
+.relative{
+    height: 100px;
+    background-color: antiquewhite;
+    position: relative;
+    left: 50px;
+
+}
+.absolute{
+    position: absolute;
+    background-color: aqua;
+    top: 0;
+    top: 20px;}  */
+.red-box {
+  border: 2px solid black;
+  height: 300px;
+  width: 300px;
+  background-color: red;
+  /* position: relative;
+    left: 20px;
+    top: -50px; */
+}
+.blue-box {
+  border: 2px solid black;
+  height: 100px;
+  width: 100px;
+  background-color: blue;
+  color: aliceblue;
+  position: absolute;
+  top: 0;
+  left: 30px;
+  /* z-index:1; */
+}
+
+.relative {
+  position: relative;
+  margin: 25px;
+  /* z-index: 2; */
+}
+.yellow-box {
+  background-color: yellow;
+  height: 150px;
+  width: 150px;
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+.purple-box {
+  background-color: purple;
+  height: 150px;
+  width: 150px;
+  position: sticky;
+  top: 0;
+}
+.container {
+  width: 600px;
+  height: 600px;
+}
+#bg-coral {
+  background-color: coral;
+}
+.box {
+  width: 100px;
+  height: 100px;
+}
+.one {
+  background-color: green;
+  position: absolute;
+  z-index: 3;
+  left: 40px;
+  opacity: 0.5;
+}
+.three {
+  background-color: red;
+  position: absolute;
+  z-index: 1;
+}
+.two {
+  background-color: blue;
+  opacity: 0.5;
+  position: absolute;
+  z-index: 2;
+  left: 20px;
+}

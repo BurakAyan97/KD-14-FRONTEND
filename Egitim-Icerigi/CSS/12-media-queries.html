@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      .container {
+        width: 100vw;
+        height: 100vh;
+        background-color: blueviolet;
+        /* width: 100%;
+        height: 100%; */
+      }
+      @media (width>500px) and (width<750px) {
+        .container {
+          background-color: crimson;
+        }
+        p {
+          display: none;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro error
+        voluptas id neque ab ea molestiae adipisci a asperiores velit, incidunt
+        repellendus amet obcaecati quidem tempore reiciendis inventore ipsa
+        corporis.
+      </p>
+    </div>
+  </body>
+</html>
