@@ -36,24 +36,27 @@ console.log(instructor.hasOwnProperty("firstName"));
 console.log(instructor.hasOwnProperty("first-Name"));
 console.log(Object.keys(instructor));
 console.log(Object.values(instructor));
-console.log(Object.entries(instructor));
+console.log(Object.entries(instructor)); //key-value'yu bir dizi içine atıp tüm propertyleri de bir dizi şeklinde birleştiriyor.(dizi elemanları(key-value) olan bir dizi)
 
 //Object.freeze
 Object.freeze(instructor);
 instructor.firstName = "Yuşa";
 instructor.Name = "Yuşa";
 console.log(instructor);
-const copiedInstructor = { ...instructor };
+
+const copiedInstructor = { ...instructor }; //Orjinal yapının kopyasını alıp üstünde çalışabiliriz.
 copiedInstructor.firstName = "Yuşa";
 copiedInstructor.Name = "Yuşa";
 console.log(instructor);
 console.log(copiedInstructor);
-const assignInstructor = Object.assign({}, copiedInstructor);
+
+const assignInstructor = Object.assign({}, copiedInstructor); //nereye kopyalayayım,neyi kopyalayayım.Boş bir objeye kopyaladık. 2.kopyalama yöntemi
 console.log(assignInstructor);
 assignInstructor.firstName = "Doğukan";
 console.log(assignInstructor);
+
 //seal
-Object.seal(copiedInstructor);
+Object.seal(copiedInstructor); //değişim yapılır.Ekleme çıkarma yapılamaz.
 copiedInstructor.firstName = "Burak";
 copiedInstructor.ismi = "Burak";
 console.log(copiedInstructor);
@@ -83,6 +86,7 @@ console.log(firstVariable, secondVariable);
 ];
 console.log(geriyeKalanDegerler);
 console.log(firstVariable, secondVariable);
+
 // object destructring
 const { firstName, lastName, birthPlace, ad, soyad, dogumyeri, ...geriye } =
   instructor;

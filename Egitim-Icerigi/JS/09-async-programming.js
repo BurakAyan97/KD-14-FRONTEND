@@ -24,6 +24,7 @@
 // //         console.log(XHR.response);
 // //     }
 // // }
+
 // const URL="https://jsonplaceholder.typicode.com/posts"
 
 // const newPost=JSON.stringify({
@@ -58,6 +59,7 @@
 //     reject("işlem başarısız oldu.")
 //     }).then(deger=>console.log(deger)).catch(deger=>console.log(deger));
 //     // console.log(promiseNesnem)
+
 //js fetch-then fetchApi
 // fetch("https://jsonplaceholder.typicode.com/posts/1/comments")
 //   .then((cevap) => cevap.json())
