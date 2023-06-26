@@ -1,0 +1,18 @@
+/* .logo img{
+    width: 200px;
+} 
+ header .logo img{
+    width: 200px;
+}
+.logo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: cadetblue;
+}
+#root header .logo img{
+    width: 100px;
+}
+#root div ul li{
+    background-color: bisque
+} */

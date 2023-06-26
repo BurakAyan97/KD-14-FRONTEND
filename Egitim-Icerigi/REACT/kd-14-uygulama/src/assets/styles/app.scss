@@ -1,0 +1,64 @@
+:root{
+    --clr-primary:yellow;
+    --clr-background:#333;
+    --clr-body:rgba(46, 143, 73, 0.738);
+}
+body{
+    background-color: var(--clr-body);
+    color: aliceblue;
+}
+#root {
+    header {
+        background-color: var(--clr-background);
+     
+        .logo{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            img{
+                width: 200px;
+            }
+        }
+        .bio{
+            margin: 10px;
+        }
+    }
+}
+.section{
+    border:  2px solid var(--clr-primary);
+    padding: 10px;
+    margin: 10px;
+    ul{
+        li{
+            font-size: 20px;
+        }
+    }
+}
+
+.card{
+    background-color: aliceblue;
+    color:blue ;
+    text-align: center;
+    margin: 5px;
+    padding: 10px;
+    img{
+width: 200px;
+height: 250px;
+border-radius: 50%;
+object-fit: cover ;
+object-position: 5px 10%;
+
+    }
+    figcaption{
+        font-size: 2rem;
+        border: 2px dashed black;
+        margin:10px 0;
+    }
+}
+.kart{
+    background-color: aliceblue;
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    color:red
+}

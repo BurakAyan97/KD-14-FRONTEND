@@ -1,0 +1,29 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+
+nav{
+    background-color: rgba(0,0,0,0.472);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    ul{
+        list-style: none;
+        display: flex;
+        li{
+            margin-inline: 20px;
+            font-family: 'Nothing You Could Do', cursive;   
+        transition: 0.7s;
+    &:hover{
+        text-decoration: underline;
+        // border-bottom: 2px solid greenyellow;
+        color: greenyellow;
+        cursor: pointer;
+    }     }
+    }
+    h3{
+        font-family: 'Fredericka the Great', cursive;
+        letter-spacing: 2px;
+    }
+    color:white;
+}

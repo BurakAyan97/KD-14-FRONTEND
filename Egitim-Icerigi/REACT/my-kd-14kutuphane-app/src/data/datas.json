@@ -1,0 +1,71 @@
+{
+    "kitaplar": [
+        {
+            "id": 1,
+            "kitapAdi": "1984",
+            "kitapYazar": "George Orwell",
+            "kitapKategoriId": 1,
+            "kitapResmi": "https://i.dr.com.tr/cache/500x400-0/originals/0000000064038-1.jpg",
+            "kitapAciklama": "“Nisan ayının soğuk, ama açık bir günüydü; saatler on üçü gösteriyordu.” Winston Smith oturduğu apartmanın yedinci katındaki dairesinde masasına oturmuş ve küçük bir antika dükkanından aldığı eski bir deftere o günün tarihi düşmüştür: 4 Nisan 1984.",
+            "kitapSayfa": 352
+        },
+        {
+            "id": 2,
+            "kitapAdi": "Mitoloji 101",
+            "kitapYazar": "Kathleen Sears",
+            "kitapKategoriId": 4,
+            "kitapResmi": "https://cdn.bkmkitap.com/mitoloji-101-11580601-13-B.jpg",
+            "kitapAciklama": "Sizi tıpkı Odysseus gibi maceralarla dolu bir yolculuğa çıkaracak olan bu kitapta Truva Savaşı, Perseus’un Medusa’yı öldürüşü, Oedipus’un bir kehanetten kaçışı gibi en ilginç klasik mitoloji öykülerini bulacaksınız. Kendisinden bir şeyler istemek için gelen konuklarını *unutma sandalyelerine* oturtan Hades; yatağına uydurmak için yolcuların bacaklarını kesip boyunu kısaltan hancı Procrustes; bir açgözlüyü kendi etini yemeye mahkûm eden Demeter; söyledikleri şarkılarla denizcilerin aklını başından alıp gemilerin kayalıklara bindirmesine sebep olan Sirenler; sorduğu bilmecenin cevabını bulamayan yolcuları parçalayıp yiyen canavar Sfenks ise bu öykülerde karşılaşacağınız en tuhaf mitolojik karakterlerden yalnızca birkaçı olacak. Ayrıca Eski Yunan ve Roma mitolojisini anlatan belli başlı klasik çağ yazarları ve eserleri hakkında bilgi sahibi olacaksınız.",
+            "kitapSayfa": 256
+        },
+        {
+            "id": 3,
+            "kitapAdi": "Otomatik Portakal",
+            "kitapYazar": "Anthony Burgess",
+            "kitapKategoriId": 4,
+            "kitapResmi": "https://images.migrosone.com/sanalmarket/product/37451890/otomatik-portakal-anthony-burgess-6b443a.jpg",
+            "kitapAciklama": "“Tüm hayvanların en zekisi, iyiliğin ne demek olduğunu bilen insanoğluna bir baskı yöntemi uygulayarak onu otomatik işleyen bir makine haline getirenlere kılıç kadar keskin olan kalemimle saldırmaktan başka hiçbir şey yapamıyorum…” Karabasan gibi bir gelecek atmosferi… Geceleyin sokakları terörize eden, yaşamları şiddet üzerine kurulu gençler ve bu hikâyenin anti-kahramanı Alex... Yayımlandığı günden bu yana “kült roman” özelliğini kaybetmeyen Otomatik Portakal’ın 15 yaşındaki kahramanı, “iyi ya da kötü nedir?”, “İnsan özgür iradesiyle kaderini seçebilir mi?” gibi soruların yanıtlarını kurcalarken, şiddet dolu sahnelere Beethoven’ın, Mozart’ın müziği eşlik ediyor; Alex ve “çete kardeşleri” Pete, Georgie ve Aptalof, yarattıkları yepyeni dilin kelimelerini okurun zihnine kazıyorlar. Ünlü yönetmen Stanley Kubrick tarafından 1971’de filme de çekilen Otomatik Portakal tüm zamanların en sarsıcı romanlarından. “Cockney dilinde (İngiliz argosu) bir deyiş vardır. ‘Uqueer as as clockwork orange’. Bu deyiş, olabilecek en yüksek derecede gariplikleri barındıran kişi anlamına gelir. Bu çok sevdiğim lafı, yıllarca bir kitap başlığında kullanmayı düşünmüşümdür. Bir de tabii Malezya’da ‘canlı’ anlamına gelen ‘orang’ sözcüğü var. Kitabı yazmaya başladığımda, rengi ve kokusu hoş bir meyvenin kullanıldığı bu deyişin, tam da anlatmak istediğim duruma, Pavlov kanunlarının uygulanmasına dayalı bir hikâyeye çok iyi oturduğunu düşündüm.” Anthony Burgess",
+            "kitapSayfa": 171
+        },
+        {
+            "id": 4,
+            "kitapAdi": "Sefiller",
+            "kitapYazar": "Viktor Hugo",
+            "kitapKategoriId": 4,
+            "kitapResmi": "https://isyonet.iskultur.com.tr/dosyalar/2019/11/sefiller-.jpg",
+            "kitapAciklama": "“1815'te başlayan hikâye, 1832 yılındaki Paris Haziran Ayaklanması ile son bulur. Birçok karaktere değinen ve girift hâlde birbirine dokunan bu hayatları aktaran Sefiller romanı, esasında kürek mahkûmu Jean Valjean'ın hayatta kalma mücadelesini, kefaret ödeme temasını eksenine alarak anlatmaktadır",
+            "kitapSayfa": 190
+        },
+        {
+            "id": 5,
+            "kitapAdi": "Körlük",
+            "kitapYazar": "José Saramago",
+            "kitapKategoriId": 1,
+            "kitapResmi": "https://img.kitapyurdu.com/v1/getImage/fn:11670815/wh:true/wi:800",
+            "kitapAciklama": "José Saramago'nun unutulmaz eseri Körlük, toplumun karanlık yüzünü ve insan doğasının derinliklerini sorgulayan bir roman olarak bilinir. Kitap, bir şehirde aniden ortaya çıkan beyaz körlük salgınıyla başlar ve insanlar hızla bu korkunç duruma yakalanır. Gözleri görmeyen insanların düştüğü kaos ve çaresizlik ortamı, okuyucuyu insanlığın varoluşsal sorularıyla yüzleşmeye zorlar. Saramago'nun akıcı ve etkileyici üslubuyla kaleme aldığı Körlük, insanlık, ahlaki değerler ve umut gibi temaları ele alır.",
+            "kitapSayfa": 368
+        }
+    ],
+    "kategoriler": [
+        {
+            "kategoriId": 0,
+            "kategoriAdi": "Bütün Kitaplar"
+        },
+        {
+            "kategoriId": 1,
+            "kategoriAdi": "Bilim-Kurgu"
+        },
+        {
+            "kategoriId": 2,
+            "kategoriAdi": "Macera"
+        },
+        {
+            "kategoriId": 3,
+            "kategoriAdi": "Teknik"
+        },
+        {
+            "kategoriId": 4,
+            "kategoriAdi": "Edebiyat"
+        }
+    ]
+}
